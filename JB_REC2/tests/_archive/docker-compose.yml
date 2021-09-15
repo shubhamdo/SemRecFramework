@@ -1,0 +1,19 @@
+app:
+  build: .
+  command: python loadtoMongo.py
+  ports:
+    - 5001:5001
+  volumes:
+    - .:/app:rw
+  links:
+    - db
+db:
+  image: mongo
+  hostname: localhost
+  environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+  volumes:
+    - ".:/app:rw"
+  ports:
+    - 27018:27017

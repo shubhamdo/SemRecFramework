@@ -1,0 +1,17 @@
+/.idea/.gitignore
+/.idea/JB_REC.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/JB_REC/JB_REC/data
+/JB_REC/figures
+/JB_REC/outputs
+/.idea/*
+/.idea/workspace.xml
+/JB_REC/loading/*
+/JB_REC/loading/
+/JB_REC/data/*
+/JB_REC/data/admin.jsonl
+/JB_REC/data/datascientist.jsonl
